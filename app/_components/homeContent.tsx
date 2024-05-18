@@ -1,15 +1,20 @@
 import Image from "next/image";
-import myPic from "./assets/41rIHIPN+yL.jpg";
-import secondPic from "./assets/61U8h+sdNkL.jpg";
-import thirdPic from "./assets/818pnDR8JgL.jpg";
+import myPic from "./assets/19664_1.webp";
+import secondPic from "./assets/9781473233959.webp";
+import thirdPic from "./assets/9782344020685-001-T.jpeg";
 
 export const HomeContent = () => {
   return (
-    <div className="flex">
-      {" "}
-      <Image src={myPic} alt="Picture of the author" />
-      <Image src={secondPic} alt="Picture of the author" />
-      <Image src={thirdPic} alt="Picture of the author" />
+    <div className="grid grid-cols-3 gap-4 h-xl pl-20 pr-20">
+      <div className="relative w-full h-full">
+        <Image className="object-cover w-full h-full" src={myPic} alt="First image" layout="fill" />
+      </div>
+      <div className="relative w-full h-full">
+        <Image className="object-cover w-full h-full" src={secondPic} alt="Second image" layout="fill" />
+      </div>
+      <div className="relative w-full h-full">
+        <Image className="object-cover w-full h-full" src={thirdPic} alt="Third image" layout="fill" />
+      </div>
     </div>
   );
 };

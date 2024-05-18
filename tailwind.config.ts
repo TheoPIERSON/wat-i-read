@@ -73,6 +73,9 @@ const config = {
       letterSpacing: {
         widest: "0.2em",
       },
+      height: {
+        xl: "49rem",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
