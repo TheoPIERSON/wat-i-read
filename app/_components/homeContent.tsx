@@ -5,7 +5,7 @@ import thirdPic from "./assets/9782344020685-001-T.jpeg";
 
 export const HomeContent = () => {
   return (
-    <div className="grid grid-cols-3 gap-4 h-xl pl-20 pr-20">
+    <div className="grid grid-cols-3 gap-4 h-xxl pl-20 pr-20">
       <div className="relative w-full h-full">
         <Image className="object-cover w-full h-full" src={myPic} alt="First image" layout="fill" />
       </div>

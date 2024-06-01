@@ -74,7 +74,12 @@ const config = {
         widest: "0.2em",
       },
       height: {
-        xl: "49rem",
+        xl: "35rem",
+        xxl: "49rem",
+      },
+      width: {
+        xl: "35rem",
+        xxl: "49rem",
       },
     },
   },
