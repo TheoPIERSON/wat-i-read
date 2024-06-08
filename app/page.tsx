@@ -1,8 +1,8 @@
 import React from "react";
-import { Hero } from "./_components/hero";
-import { HomeContent } from "./_components/homeContent";
-import { Navbar } from "./_components/navbar";
-import { BookList } from "./_components/bookList";
+import { Hero } from "../components/hero";
+import { HomeContent } from "../components/homeContent";
+import { Navbar } from "../components/navbar";
+import { BookList } from "../components/bookList";
 
 const Home: React.FC = () => {
   return (

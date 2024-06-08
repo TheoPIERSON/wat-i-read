@@ -1,5 +1,5 @@
-import { Navbar } from "../_components/navbar";
-import { AddForm } from "../_components/addForm";
+import { Navbar } from "../../components/navbar";
+import { AddForm } from "../../components/addForm";
 
 // app/add-book/page.tsx
 const AddBook = () => {

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import myPic from "./assets/19664_1.webp";
-import secondPic from "./assets/9781473233959.webp";
-import thirdPic from "./assets/9782344020685-001-T.jpeg";
+import myPic from "../lib/assets/19664_1.webp";
+import secondPic from "../lib/assets/9781473233959.webp";
+import thirdPic from "../lib/assets/9782344020685-001-T.jpeg";
 
 export const HomeContent = () => {
   return (
