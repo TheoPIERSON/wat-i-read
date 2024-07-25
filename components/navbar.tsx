@@ -17,7 +17,9 @@ export const Navbar = () => {
         <button className="hover:underline decoration-2 decoration-amber-300">contact</button>
       </li>
       <li className="mx-10 my-2">
-        <button className="hover:underline decoration-2 decoration-amber-300">coffee</button>
+        <a href="https://buymeacoffee.com/theopierson" className="hover:underline decoration-2 decoration-amber-300">
+          coffee
+        </a>
       </li>
     </ul>
   );
